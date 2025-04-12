@@ -13,16 +13,24 @@ declare global {
       // WalletConnect
       NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID: string
 
-      // Foundry
-      LOCAL_PRIVATE_KEY: string
-      LOCAL_RPC_URL: string
-      TEST_PRIVATE_KEY: string
-      SEPOLIA_RPC_URL: string
-      ETHERSCAN_API_KEY: string
-
       // Pinata
       PINATA_JWT: string
       NEXT_PUBLIC_GATEWAY_URL: string
+
+      // Accounts
+      LOCAL_PRIVATE_KEY: string
+      TEST_PRIVATE_KEY: string
+
+      // RPC URLs
+      LOCAL_RPC_URL: string
+      SEPOLIA_RPC_URL: string
+      MONAD_RPC_URL: string
+
+      // Etherscan
+      ETHERSCAN_API_KEY: string
+
+      // Verify URLs
+      MONAD_VERIFY_URL: string
     }
   }
 

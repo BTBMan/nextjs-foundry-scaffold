@@ -24,7 +24,7 @@ contract SimpleStorageTest is Test, IHelperConfig {
         vm.deal(user, STARTING_BALANCE);
     }
 
-    function test_FavoriteNumber() public {
+    function testFavoriteNumber() public {
         vm.startPrank(user);
         simpleStorage.store(15);
         vm.stopPrank();

@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-const OUTPUT_DIR = './src/contract-data'
+const OUTPUT_DIR = './src/contracts'
 const scriptPath = process.argv[2]
 
 // Ensure script path is provided

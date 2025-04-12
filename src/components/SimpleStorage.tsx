@@ -3,7 +3,7 @@
 import { useEffect } from 'react'
 import { useAccount, useReadContract, useWaitForTransactionReceipt, useWriteContract } from 'wagmi'
 import { Button } from '@/components/ui/button'
-import { SimpleStorage } from '@/contract-data/SimpleStorage'
+import { SimpleStorage } from '@/contracts/SimpleStorage'
 
 export default function SimpleStorageComp() {
   const { isConnected } = useAccount()

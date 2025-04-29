@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "nomicfoundation.hardhat-solidity",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint"
   ]
 }

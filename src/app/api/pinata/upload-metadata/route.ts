@@ -1,6 +1,6 @@
 import type { NextRequest } from 'next/server'
 import { NextResponse } from 'next/server'
-import { pinata } from '@/libs/pinata'
+import { pinata } from '@/libs'
 
 export interface UploadNftRequestData<Image = File> extends Omit<NFTMetadata, 'image'> {
   image: Image
